@@ -1,38 +1,176 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+body {
+  background-image: url(https://www.consafelogistics.com/wp-content/uploads/2016/12/wms-top-header-1-1.jpg);
+  background-position:center ;
+  background-repeat: no-repeat;
+  background-color: rgb(169,173,198);
+  background-attachment:fixed;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.card {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  background: rgb(156,162,190);
+  margin-top:4vh;
+  border-radius: 0.5rem;
+  width: 55rem;
+  font-size:medium;
+  opacity: 85%;
+  box-shadow: 10px -1px 7px white;
+
+}
+
+.textarea {
+  display: flex;
+  border-radius: 0.5rem;
+  padding: 4rem;
+  position:static;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  color: black;
+  
+  
+ 
+  
+}
+
+
+.contact-ta{
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  border-radius: 8px;
+  border: none;
+  height: 100%;
+  font-size: medium;
+  
+
+  
+}
+
+.fbc{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+ text-align: center;
+}
+
+.mainText {
+  color: rgb(39,40,63);
+  font-size: 9rem;
+  font-style: italic;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  text-shadow: 10px -1px 7px white;
+  opacity: 85%;
+ 
+  
+}
+
+.st{
+  font-size: x-large;
+  color: rgb(30, 31, 43);
+  text-shadow: 10px -10px 7px #e8e9df;
+}
+
+.tb {
+  list-style-type: none;
+  overflow: hidden;
+  display: inline-flex;
+  position:static;
+  justify-content: center;
+  align-items: center;
+  width: 100vh;
+  
+}
+
+li a {
+  display: block;
   color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
+.button {
+  background-color: rgb(156,162,190);
+  opacity: 80%;
+  border: none;
+  border-radius: 0.5rem;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  box-shadow: 0 8px 16px 0 rgb(103,99,121), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  opacity:100%
+}
+
+.home{
+  display:grid;
+  justify-content: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(156,162,190);
+  opacity: 80%;
+  border-radius: 0.5rem;
+  box-shadow: 10px -1px 6px white;
+}
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  
+}
+
+.topnav a:hover {
+  background-color: rgb(112, 109, 122);
+  border-radius: 0.5rem;
+ 
+}
+
+
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+  border-radius: 0.5rem;
+}
+
+.topnav input:hover{
+  box-shadow: 0 15px 18px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19) ;
+  opacity:100%
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a, .topnav input[type=text] {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
   }
-  to {
-    transform: rotate(360deg);
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
   }
 }
+

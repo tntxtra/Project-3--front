@@ -1,7 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import AddProduct from './components/funcComponents';
-import 'index.html'
+import AddProduct from './components/funcComponenets';
+
 function App() {
   return (
     <div className="App">
